@@ -366,3 +366,137 @@ span {
     font-size: 2.4rem;
     color: var(--snd-bg-color);
 }
+
+
+@media (max-width: 360px) {
+
+    .header a i,
+    .navbar {
+        display: none;
+    }
+
+    .header .menu {
+        display: block;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .home_content h1 {
+        font-size: 3.6rem;
+    }
+
+    .homeImg,
+    .abouImg {
+        width: 35vw;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about_content h2 {
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .portfolio_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .header a i,
+    .navbar {
+        display: none;
+    }
+
+    .header .menu {
+        display: block;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .home_content h1 {
+        font-size: 2.6rem;
+    }
+
+    .homeImg,
+    .abouImg {
+        width: 45vw;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about_content h2 {
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 3.5rem;
+    }
+
+    .portfolio_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+
+    .header a i,
+    .navbar {
+        display: none;
+    }
+
+    .header .menu {
+        display: block;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .home_content h1 {
+        font-size: 2.6rem;
+    }
+
+    .homeImg,
+    .abouImg {
+        width: 45vw;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about_content h2 {
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 3.5rem;
+    }
+
+    .portfolio_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
